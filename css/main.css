@@ -61,45 +61,124 @@ img {
   padding: 6px 34px;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  text-decoration: none; }
+  text-decoration: none;
+  border-radius: 20px; }
   .btn_simple:hover {
     background-color: #722ED1;
     color: #fff; }
 
+.btn {
+  color: #fff;
+  background-color: #722ED1;
+  padding: 14px 40px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  text-decoration: none;
+  border-radius: 24px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16); }
+  .btn:hover {
+    background-color: #fff;
+    color: #111; }
+  .btn.btn_white {
+    background-color: #fff;
+    color: #111; }
+    .btn.btn_white:hover {
+      color: #fff;
+      background-color: #722ED1; }
+
 /* btns */
-#header .inner_header {
+#top_banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+#header {
+  padding-top: 24px; }
+  #header .inner_header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    #header .inner_header .logo {
+      width: 48px;
+      height: 48px; }
+      #header .inner_header .logo > img {
+        width: 100%; }
+    #header .inner_header .right_side_header {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      #header .inner_header .right_side_header .mnu_top {
+        list-style-type: none; }
+        #header .inner_header .right_side_header .mnu_top > li {
+          display: inline-block;
+          margin-right: 40px; }
+          #header .inner_header .right_side_header .mnu_top > li > a {
+            display: block;
+            text-decoration: none;
+            font-weight: 500;
+            color: #000;
+            -webkit-transition: color 0.4s ease;
+            transition: color 0.4s ease; }
+            #header .inner_header .right_side_header .mnu_top > li > a:hover {
+              color: #722ED1; }
+
+.notify {
+  background-color: #F7F1FF;
+  border-radius: 20px;
+  padding: 10px 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
-  #header .inner_header .logo {
-    width: 48px;
-    height: 48px; }
-    #header .inner_header .logo > img {
-      width: 100%; }
-  #header .inner_header .right_side_header {
+  max-width: 256px; }
+  .notify img {
+    width: 16px;
+    height: auto;
+    margin-right: 7px; }
+  .notify p {
+    color: #722ED1; }
+  .notify a {
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    text-decoration: none;
+    border-bottom: 1px solid #722ED1;
+    color: #722ED1; }
+    .notify a:hover {
+      color: #5b25a7;
+      border-color: #5b25a7; }
+
+.main_banner {
+  padding: 150px 0 250px; }
+  .main_banner .mb_info > h1 {
+    color: #160637;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.1;
+    max-width: 430px;
+    margin-top: 10px; }
+  .main_banner .mb_info > .desc {
+    color: #8989A2;
+    margin: 14px 0 44px;
+    max-width: 472px;
+    font-size: 18px; }
+  .main_banner .mb_info > .btns {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-    #header .inner_header .right_side_header .mnu_top {
-      list-style-type: none; }
-      #header .inner_header .right_side_header .mnu_top > li {
-        display: inline-block; }
-        #header .inner_header .right_side_header .mnu_top > li > a {
-          display: block;
-          text-decoration: none;
-          font-size: 14px;
-          font-weight: 500;
-          color: #000;
-          -webkit-transition: color 0.4s ease;
-          transition: color 0.4s ease; }
-          #header .inner_header .right_side_header .mnu_top > li > a:hover {
-            color: #722ED1; }
+    .main_banner .mb_info > .btns > .btn_white {
+      margin-left: 16px; }
