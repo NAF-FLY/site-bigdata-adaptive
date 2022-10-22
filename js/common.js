@@ -1,6 +1,8 @@
 $(function () {
   new WOW().init();
 
+  // mnu mobile open
+
   $(".hamburger").click(function () {
     $(this).toggleClass("is-active");
 
@@ -10,6 +12,8 @@ $(function () {
       $(".mnu_top").slideUp(300);
     }
   });
+
+  // mnu mobile open
 
   // reviews tabs
 
