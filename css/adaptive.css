@@ -178,7 +178,27 @@
     width: 100%;
     margin-bottom: 30px; }
     .row_adv > div:last-child {
-      margin-bottom: 0; } }
+      margin-bottom: 0; }
+
+  section.information .right_info > .desc {
+    font-size: 14px; }
+
+  #reviews {
+    padding: 40px 0;
+    background-color: #F5F9FF;
+    background-image: none; }
+
+  #reviews .line {
+    margin: 30px 0; }
+
+  #reviews .nav_rev {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 18px; }
+
+  #reviews .nav_rev > div {
+    width: 28%; } }
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
   /* */ }
