@@ -28,4 +28,27 @@ $(function () {
   });
 
   // reviews tabs
+
+  // yakor
+
+  $("a.yakor").on("click", function (event) {
+    const $anchor = $(this);
+    $("html, body")
+      .stop()
+      .animate(
+        {
+          scrollTop: $($anchor.attr("href")).offset().top,
+        },
+        {
+          duration: 2000,
+          specialEasing: {
+            width: "linear",
+            height: "easeInOutCubic",
+          },
+        }
+      );
+    event.preventDefault();
+  });
+
+  // yakor
 });

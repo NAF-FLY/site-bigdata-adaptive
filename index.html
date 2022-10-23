@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
 
@@ -70,10 +70,10 @@
                   </ul>
                 </li>
                 <li><a href="#">Pricing</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Login</a></li>
+                <li><a href="#footer" class="yakor">Contact Us</a></li>
+                <li><a href="#pre_footer" class="yakor">Login</a></li>
               </ul>
-              <a href="#" class="btn_simple">Get Started</a>
+              <a href="#pre_footer" class="yakor btn_simple">Get Started</a>
             </div>
           </div>
         </div>
@@ -82,10 +82,16 @@
       <div class="main_banner">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6 col-md-7 order-lg-1 order-2">
+            <div
+              class="col-lg-6 col-md-7 order-lg-1 order-2 wow fadeInLeft"
+              data-wow-duration="1.5s"
+            >
               <div class="mb_info">
                 <div class="notify">
-                  <img src="img/main_banner/update_icon_mb.svg" alt="" />
+                  <img
+                    src="img/main_banner/update_icon_mb.svg"
+                    alt="update icon"
+                  />
                   <p>v3.1 released. <a href="#">Learn more</a></p>
                 </div>
                 <h1>Your data with real-time analytics</h1>
@@ -94,17 +100,24 @@
                   and become a data-driven organization with Needle tail
                 </div>
                 <div class="btns">
-                  <a href="#" class="btn">Start free trial</a>
-                  <a href="#" class="btn btn_white">Learn more</a>
+                  <a href="#pre_footer" class="yakor btn">Start free trial</a>
+                  <a href="#advantages" class="yakor btn btn_white"
+                    >Learn more</a
+                  >
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-5 order-lg-2 order-1">
-              <img
-                src="img/main_banner/image_mb.png"
-                alt="main banner"
-                class="img-responsive"
-              />
+            <div
+              class="col-lg-6 col-md-5 order-lg-2 order-1 wow fadeInRight"
+              data-wow-duration="1.5s"
+            >
+              <picture class="animate_graphic img-responsive">
+                <source
+                  srcset="img/main_banner/image_mb.webp"
+                  type="image/webp"
+                />
+                <img src="img/main_banner/image_mb.png" alt="main banner" />
+              </picture>
             </div>
           </div>
         </div>
@@ -112,9 +125,9 @@
     </section>
 
     <section id="advantages">
-      <div class="container">
+      <div class="container wow fadeIn" data-wow-duration="2s">
         <div class="notify">
-          <img src="img/advantages/eye.svg" alt="" />
+          <img src="img/advantages/eye.svg" alt="eye icon" />
           <p>Why Qubly</p>
         </div>
         <div class="heading_main">
@@ -128,7 +141,7 @@
         <div class="row row_adv d-flex justify-content-center">
           <div class="col-md-4 col-sm-6">
             <div class="item_adv">
-              <img src="img/advantages/timeline.svg" alt="" />
+              <img src="img/advantages/timeline.svg" alt="timeline icon" />
               <div class="heading">Data in real-time</div>
               <div class="desc">
                 Collect data in real-time from multiple channels and move it
@@ -138,7 +151,10 @@
           </div>
           <div class="col-md-4 col-sm-6">
             <div class="item_adv">
-              <img src="img/advantages/newsletter-dev.svg" alt="" />
+              <img
+                src="img/advantages/newsletter-dev.svg"
+                alt="newsletter icon"
+              />
               <div class="heading">Powerful Algorithms</div>
               <div class="desc">
                 With the help of powerful algorithms, quality rules &
@@ -148,7 +164,7 @@
           </div>
           <div class="col-md-4 col-sm-6">
             <div class="item_adv">
-              <img src="img/advantages/chart-bar-33.svg" alt="" />
+              <img src="img/advantages/chart-bar-33.svg" alt="chart icon" />
               <div class="heading">Valuable business insights</div>
               <div class="desc">
                 Collect processed & cleansed data that is ready to be analyzed
@@ -163,17 +179,23 @@
     <section id="info_1" class="information">
       <div class="container">
         <div class="row d-flex align-items-center">
-          <div class="col-lg-6 col-md-8">
+          <div
+            class="col-lg-6 col-md-8 wow fadeInLeft"
+            data-wow-duration="1.5s"
+          >
             <img
               src="img/information/info_img_1.svg"
-              alt=""
-              class="img-responsive"
+              alt="information about team"
+              class="animate_graphic img-responsive"
             />
           </div>
-          <div class="col-lg-6 col-md-4">
+          <div
+            class="col-lg-6 col-md-4 wow fadeInRight"
+            data-wow-duration="1.5s"
+          >
             <div class="right_info">
               <div class="notify">
-                <img src="img/information/icon_notify_1.svg" alt="" />
+                <img src="img/information/icon_notify_1.svg" alt="notify" />
                 <p>For Product Teams</p>
               </div>
               <h3>Launch with the best stack</h3>
@@ -191,10 +213,13 @@
     <section id="info_2" class="information">
       <div class="container">
         <div class="row d-flex align-items-center">
-          <div class="col-lg-6">
+          <div
+            class="col-lg-6 col-md-8 wow fadeInLeft"
+            data-wow-duration="1.5s"
+          >
             <div class="right_info">
               <div class="notify">
-                <img src="img/information/icon_notify_2.svg" alt="" />
+                <img src="img/information/icon_notify_2.svg" alt="notify" />
                 <p>For Engineering Teams</p>
               </div>
               <h3>Data-driven pipelines in minutes</h3>
@@ -205,80 +230,85 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
-            <img
-              src="img/information/info_img_2.png"
-              alt=""
-              class="img-responsive"
-            />
+          <div
+            class="col-lg-6 col-md-4 wow fadeInRight"
+            data-wow-duration="1.5s"
+          >
+            <picture class="animate_graphic img-responsive">
+              <source
+                srcset="img/information/info_img_2.webp"
+                type="image/webp"
+              />
+              <img src="img/information/info_img_2.png" alt="main banner" />
+            </picture>
           </div>
         </div>
       </div>
     </section>
 
     <section id="reviews">
-      <div class="container">
+      <div class="container wow fadeIn" data-wow-duration="2s">
         <div id="rev_1" class="item_rev active">
           <div class="quotes">
             "What I love about Qubly is the easy way we can collaborate even if
             there is a lot of people involved in the process"
           </div>
-          <img src="/img/reviews/profile.png" alt="" />
+          <img src="/img/reviews/profile.png" alt="avatar" />
           <div class="name">Guillaume Cabane</div>
-          <div class="position">CTO @ BigSpring</div>
+          <div class="position">CTO @ HarnessBig</div>
         </div>
         <div id="rev_2" class="item_rev">
           <div class="quotes">
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Perspiciatis fuga recusandae autem incidunt quisquam voluptas. A?"
           </div>
-          <img src="/img/reviews/profile.png" alt="" />
+          <img src="/img/reviews/profile.png" alt="avatar" />
           <div class="name">Guillaume Cabane</div>
-          <div class="position">CTO @ BigSpring</div>
+          <div class="position">CTO @ Vultr Team</div>
         </div>
         <div id="rev_3" class="item_rev">
           <div class="quotes">
             "Provident quos voluptates, amet, enim animi rem, voluptatibus quis
             doloremque incidunt aliquam dolorum eaque error nam? Tempore."
           </div>
-          <img src="/img/reviews/profile.png" alt="" />
+          <img src="/img/reviews/profile.png" alt="avatar" />
           <div class="name">Guillaume Cabane</div>
-          <div class="position">CTO @ BigSpring</div>
+          <div class="position">CTO @ DeployHQ</div>
         </div>
         <div id="rev_4" class="item_rev">
           <div class="quotes">
             "Necessitatibus odio possimus provident, architecto, fugiat
             voluptates voluptas porro velit incidunt aliquid, natus tenetur?"
           </div>
-          <img src="/img/reviews/profile.png" alt="" />
+          <img src="/img/reviews/profile.png" alt="avatar" />
           <div class="name">Guillaume Cabane</div>
-          <div class="position">CTO @ BigSpring</div>
+          <div class="position">CTO @ NewRelic</div>
         </div>
         <div id="rev_5" class="item_rev">
           <div class="quotes">
             Incidunt laudantium iusto neque enim veritatis ad obcaecati, illo
             pariatur voluptate perferendis repellat dicta architecto.
           </div>
-          <img src="/img/reviews/profile.png" alt="" />
+          <img src="/img/reviews/profile.png" alt="avatar" />
           <div class="name">Guillaume Cabane</div>
-          <div class="position">CTO @ BigSpring</div>
+          <div class="position">CTO @ PMZ Team</div>
         </div>
         <div class="line"></div>
         <div class="nav_rev">
           <div data-revid="#rev_1" class="active">
-            <img src="img/reviews/partner_1.svg" alt="" />
+            <img src="img/reviews/partner_1.svg" alt="Harness" />
           </div>
           <div data-revid="#rev_2">
-            <img src="img/reviews/partner_1.svg" alt="" />
+            <img src="img/reviews/partner_2.svg" alt="Vultr" />
           </div>
           <div data-revid="#rev_3">
-            <img src="img/reviews/partner_1.svg" alt="" />
+            <img src="img/reviews/partner_3.svg" alt="DeployHQ" />
           </div>
           <div data-revid="#rev_4">
-            <img src="img/reviews/partner_1.svg" alt="" />
+            <img src="img/reviews/partner_4.svg" alt="NewRelic" />
           </div>
           <div data-revid="#rev_5">
-            <img src="img/reviews/partner_1.svg" alt="" />
+            <img src="img/reviews/partner_5.svg" alt="PMZ Team" />
           </div>
         </div>
       </div>
@@ -287,21 +317,25 @@
     <section id="pre_footer">
       <div class="container">
         <div class="row d-flex align-items-center">
-          <div class="col-lg-6">
+          <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1.5s">
             <div class="pf_info">
               <h4>
                 See why the world’s best companies use Qubly to become truly
                 data-driven.
               </h4>
-              <img src="img/pre_footer/line_pf.svg" alt="" class="line_img" />
+              <img
+                src="img/pre_footer/line_pf.svg"
+                alt="line footer"
+                class="line_img"
+              />
               <img
                 src="img/pre_footer/client_logos.svg"
-                alt=""
+                alt="our clients"
                 class="img-responsive"
               />
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 wow fadeInRight" data-wow-duration="1.5s">
             <div class="form_wrapper">
               <form action="mail.php" method="POST">
                 <h4>Sign Up</h4>
@@ -328,7 +362,7 @@
                 </button>
                 <div class="or">OR</div>
                 <a href="#"
-                  ><img src="img/pre_footer/btn_google.svg" alt=""
+                  ><img src="img/pre_footer/btn_google.svg" alt="button google"
                 /></a>
                 <div class="footer_form">
                   <div class="line"></div>
@@ -342,7 +376,7 @@
     </section>
 
     <footer id="footer">
-      <div class="container">
+      <div class="container wow fadeInLeft" data-wow-duration="2s">
         <div class="row_flex">
           <div class="col_footer_1">
             <div class="logo_info">
@@ -446,11 +480,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="libs/bootstrap-grid.min.css" />
-    <link rel="stylesheet" href="libs/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="libs/animate.css" />
 
     <script src="libs/jquery/dist/jquery.min.js"></script>
-    <script src="libs/jquery.fancybox.min.js"></script>
     <script src="libs/wow.min.js"></script>
 
     <link rel="stylesheet" href="css/main.css" />
